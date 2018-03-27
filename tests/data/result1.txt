@@ -1,0 +1,62 @@
+{
+    "data": {
+        "type": "object",
+        "properties": {
+            "item": {
+                "type": "string"
+            },
+            "stuff": {
+                "type": "number"
+            },
+            "bill": {
+                "type": "integer"
+            },
+            "boolean": {
+                "type": "boolean"
+            },
+            "strings": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "numbers": {
+                "type": "array",
+                "items": {
+                    "type": "number"
+                }
+            },
+            "integers": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "booleans": {
+                "type": "array",
+                "items": {
+                    "type": "boolean"
+                }
+            },
+            "objects": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "wear": {
+                            "type": "string"
+                        }
+                    }
+                }
+            },
+            "subObject": {
+                "type": "object",
+                "properties": {
+                    "wear": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
